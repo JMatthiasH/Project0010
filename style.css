@@ -1,0 +1,101 @@
+body {
+    background-color: #AEDEEE;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 70px;
+    padding: 0px;
+}
+
+.subHead {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+    padding: 0px;
+}
+
+#myImg {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+    padding: 2px;
+    border: 2px solid #021a40;
+    background-color: #90B8C5;
+}
+#imgTxt {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.iconImg {
+    padding: 10px;
+}
+
+.tSkills {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid #021a40;
+    padding: 0px 0px 30px 0px;
+    background-color: #90B8C5;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+#listTitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.gHub {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+#gitTitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #33859F;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster Two';
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+}
+ul#horizontal-list li {
+    display: inline;
+    padding: 0px 40px 0px 40px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Alice', serif;
+}
